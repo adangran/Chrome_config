@@ -1,0 +1,7 @@
+#只跟踪下面的文件
+#修改.gitignore后要清除缓存才能生效 git rm -r --cached .
+/*
+!.gitignore
+!README.md
+!Markdown" "Preview" "Plus/*
+!/searchEngineJump/*.txt
