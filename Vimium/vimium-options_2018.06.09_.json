@@ -1,0 +1,26 @@
+{
+  "settingsVersion": "1.63.3",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\n#向上滚动半页 默认u\nmap w scrollPageUp\n\n#向下滚动半页 默认d\nmap s scrollPageDown\n\n#关闭当前页\nmap d removeTab\n\n#恢复关闭网页\nmap x restoreTab\n\n向上滚动一页\nmap <c-b> scrollFullPageUp\n\n#在一个新标签中打开一个链接并切换到它\nmap <a-g> LinkHints.activateModeToOpenInNewForegroundTab\n\n#在隐藏窗口打开链接\nmap <a-t> LinkHints.activateModeToOpenIncognito\n\n# <a-f>在新页面中打开多个链接",
+  "linkHintCharacters": "sdfgawertqvcxzb",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>,下一页,下一頁,下1页,下1頁,下页,下頁,翻页,翻頁,翻下頁,翻下页,下一张,下一張,下一幅,下一章,下一节,下一節,下一篇,后一页,後一頁,前进,下篇,后页,往后,Next,Next Page,次",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<,上一页,上一頁,上1页,上1頁,上页,上頁,翻上頁,翻上页,上一张,上一張,上一幅,上一章,上一节,上一節,上一篇,前一页,前一頁,后退,後退,上篇,previous Page,",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "W: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\nD: http://www.baidu.com/s?wd=%s 百度\nA: http://www.baidu.com/#ie={inputEncoding}&wd=%s 百度\nB: https://cn.bing.com/search?q=%s Bing\nZ: https://www.zhihu.com/search?type=content&q=%s 知乎\nO: https://www.douban.com/search?source=suggest&q=%s 豆瓣\nI: https://search.bilibili.com/all?keyword=%s B站\nV: https://cn.bing.com/search?q=site%3Awww.v2ex.com+%s v2ex\nY: http://so.yinyuetai.com/?keyword=%s 音悦台\nF: http://fanyi.baidu.com/#en/zh/%s 翻译\nJ: https://search.jd.com/Search?keyword=%s&enc=utf-8 京东搜索\nX: https://s.weibo.com/weibo/%s?topnav=1&wvr=6&b=1 新浪微博\nT: https://s.taobao.com/search?q=%s 淘宝 \n\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# y: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://cn.bing.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
